@@ -1,0 +1,15 @@
+Intuition:
+Following the approach given in the problem statement.
+
+Approach:
+1. Finding max element for each index and storing it in mx[].
+2. Storing the gcd of nums[i] and mx[i] in prefix[].
+3. Sort the prefix[].
+4. Using two pointers, p1 and p2, where p1 points to the starting index of the array and p2 points to the end of the array.
+5. p1 should travel only till the mid of the array.
+6. Find gcd of the smallest and largest elements in the prefix array and add them.
+7. Return the sum.
+
+Complexity:
+Time complexity: O(nlogn)
+Space complexity: O(n)
