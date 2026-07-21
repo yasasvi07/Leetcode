@@ -43,12 +43,6 @@ class Solution {
         {
             return one;
         }
-        one = 0;
-        for(int i=0;i<s.length();i++)
-        {
-            if(s.charAt(i)=='1')
-            one++;
-        }
-        return max+one-2;
+        return max+one;
     }
 }
