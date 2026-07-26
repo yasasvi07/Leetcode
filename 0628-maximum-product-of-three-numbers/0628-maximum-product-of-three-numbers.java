@@ -4,6 +4,8 @@ class Solution {
         int max1 = Integer.MIN_VALUE;
         int max2 = Integer.MIN_VALUE;
         int max3 = Integer.MIN_VALUE;
+        int min1 = Integer.MAX_VALUE;
+        int min2 = Integer.MAX_VALUE;
         for(int i=0;i<n;i++)
         {
             if(nums[i]>max1)
@@ -21,11 +23,6 @@ class Solution {
             {
                 max3 = nums[i];
             }
-        }
-        int min1 = Integer.MAX_VALUE;
-        int min2 = Integer.MAX_VALUE;
-        for(int i=0;i<n;i++)
-        {
             if(nums[i]<min1)
             {
                 min2 = min1;
