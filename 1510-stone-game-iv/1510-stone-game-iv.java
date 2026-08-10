@@ -1,6 +1,6 @@
 class Solution {
-    public boolean winnerSquareGame(int n) {
-        boolean[] win = new boolean[100001];
+    static boolean[] win = new boolean[100001];
+    static{
         List<Integer> sq = new ArrayList<>();
         for(int i=1;i<=(int)Math.sqrt(100000);i++)
         {
@@ -19,6 +19,8 @@ class Solution {
                 }
             }
         }
+    }
+    public boolean winnerSquareGame(int n) {
         return win[n];
     }
 }
