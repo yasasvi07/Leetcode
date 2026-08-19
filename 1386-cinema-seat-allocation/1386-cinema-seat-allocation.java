@@ -15,7 +15,7 @@ class Solution {
             Set<Integer> hs = entry.getValue();
             for(int j=1;j<5;j++)
             {
-                if(hs!=null && hs.contains(j))
+                if(hs.contains(j))
                 {
                     left = false;
                     break;
@@ -23,7 +23,7 @@ class Solution {
             }
             for(int j=3;j<7;j++)
             {
-                if(hs!=null && hs.contains(j))
+                if(hs.contains(j))
                 {
                     middle = false;
                     break;
@@ -31,7 +31,7 @@ class Solution {
             }
             for(int j=5;j<9;j++)
             {
-                if(hs!=null && hs.contains(j))
+                if(hs.contains(j))
                 {
                     right = false;
                     break;
