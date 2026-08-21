@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/yasasvi07/Leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3731-find-missing-elements](https://github.com/yasasvi07/Leetcode/tree/master/3731-find-missing-elements) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/yasasvi07/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [4020-elevator-requests-i](https://github.com/yasasvi07/Leetcode/tree/master/4020-elevator-requests-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1260-shift-2d-grid](https://github.com/yasasvi07/Leetcode/tree/master/1260-shift-2d-grid) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/yasasvi07/Leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/yasasvi07/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [4020-elevator-requests-i](https://github.com/yasasvi07/Leetcode/tree/master/4020-elevator-requests-i) |
 ## Stack
 |  |
 | ------- |
