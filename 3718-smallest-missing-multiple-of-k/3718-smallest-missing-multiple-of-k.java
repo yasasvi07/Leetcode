@@ -10,6 +10,6 @@ class Solution {
             if(!hs.contains(k*i))
             return k*i;
         }
-        return k*(nums.length);
+        return k*(nums.length+1);
     }
 }
