@@ -14,23 +14,20 @@ class Solution {
         int n = s.length();
         if(k==1)
         return n;
-        int[] dp = new int[n+1];
-        for(int i=0;i<n;i++)
+        int ans = 0;
+        for(int i=0;i<=n-k;i++)
         {
-            dp[i+1] = Math.max(dp[i+1],dp[i]);
-            //StringBuilder sb = new StringBuilder();
-            for(int j=i;j<n;j++)
+            if(palindrome(s,i,i+k-1))
             {
-                //sb.append(s.charAt(j));
-                if(j-i+1>=k)
-                {
-                    if(palindrome(s,i,j))
-                    {
-                        dp[j+1] = Math.max(dp[j+1],dp[i]+1);
-                    }
-                }
+                ans++;
+                i+=k-1;
+            }
+            else if(i<n-k && palindrome(s,i,i+k))
+            {
+                ans++;
+                i+=k;
             }
         }
-        return dp[n];
+        return ans;
     }
 }
